@@ -139,6 +139,8 @@ add_action( 'widgets_init', 'rccgbig_blog_widgets_init' );
  */
 function rccgbig_blog_scripts() {
 	wp_enqueue_style( 'rccgbig_blog-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'rccgbig_blog-main', get_template_directory_uri() .'/css/main.css');
+
 	wp_style_add_data( 'rccgbig_blog-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'rccgbig_blog-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
@@ -148,6 +150,32 @@ function rccgbig_blog_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'rccgbig_blog_scripts' );
+
+
+/**
+ * Custom Fonts.
+ * font-family: "DM Sans", sans-serif;
+ * font-family: "Roboto", sans-serif;
+ * font-family: "Epilogue", sans-serif;
+ * font-family: "Inter", sans-serif;
+ * font-family: "Plus Jakarta Sans", sans-serif;
+ */
+function enqueue_custom_fonts() {
+	if(!is_admin()){
+		wp_register_style('dm-sans', 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap');
+		wp_register_style('roboto', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&amp;display=swap');
+		wp_register_style('epilogue', 'https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&amp;family=Poppins&amp;display=swap');
+		wp_register_style('inter', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+		wp_register_style('plus-jakarta-sans', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;display=swap');
+		
+		wp_enqueue_style('dm-sans');
+		wp_enqueue_style('roboto');
+		wp_enqueue_style('epilogue');
+		wp_enqueue_style('inter');
+		wp_enqueue_style('plus-jakarta-sans');
+	}
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
 
 /**
  * Implement the Custom Header feature.
