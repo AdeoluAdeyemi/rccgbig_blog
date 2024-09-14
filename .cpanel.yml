@@ -1,0 +1,5 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/rccgbigo/public_html/blog/wp-content/themes/rccgbig_blog
+    - /bin/cp . $DEPLOYPATH
