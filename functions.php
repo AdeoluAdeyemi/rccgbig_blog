@@ -140,7 +140,7 @@ add_action( 'widgets_init', 'rccgbig_blog_widgets_init' );
 function rccgbig_blog_scripts() {
 	wp_enqueue_style( 'rccgbig_blog-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'rccgbig_blog-main', get_template_directory_uri() .'/css/main.min.css');
-	wp_enqueue_style( 'rccgbig_blog-main', get_template_directory_uri() .'/css/blog.min.css');
+	wp_enqueue_style( 'rccgbig_blog-blog', get_template_directory_uri() .'/css/blog.min.css');
 
 	wp_style_add_data( 'rccgbig_blog-style', 'rtl', 'replace' );
 
