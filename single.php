@@ -33,7 +33,7 @@ get_header();
 								</a>
 							</div>
 							<div class="d-inline-block me-3">
-								< href="#">
+								<a href="#">
 									<i class="mi-user size-16"></i>
 									<span class="visually-hidden">Author:</span>
 								</a>
