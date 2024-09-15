@@ -13,7 +13,10 @@ $primary: rgb(127, 24, 127);
 // $color-primary-4: #19c4c4;
 // $color-primary-light-4: #d1ffff;
 
-
+$font-family-sans-serif: system-ui, -apple-system, "Satoshi", sans-serif, "DM Sans", sans-serif;
+$font-size-base:  18px;
+$font-weight-base:   400;
+$line-height-base:   1.67;
 
 $theme-colors: (
   "primary": $primary
