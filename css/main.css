@@ -11307,10 +11307,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"), url(../assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"), url(../assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"), url(../assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 .rccbig-blog {
   --font-global: "Satoshi", sans-serif;
   --font-alt: "Satoshi", sans-serif;
   --section-padding-y: 140px;
+  --font-global: "Satoshi", sans-serif;
+  --font-alt: "Satoshi", sans-serif;
+  --section-padding-y: 140px;
+  --border-radius-default: 12px;
+  --box-shadow-block: 0px 10px 30px 0px rgba(0, 0, 0, .09);
+  --box-shadow-block-strong: 0px 12px 37px 0px rgba(0, 0, 0, .175);
   font-family: var(--font-global);
   font-size: 18px;
   font-weight: 400;
