@@ -1,3 +1,28 @@
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap
+}
+
 // Inlcude custom variables default overrides here
 
 $primary: rgb(127, 24, 127);
@@ -14,7 +39,7 @@ $primary: rgb(127, 24, 127);
 // $color-primary-light-4: #d1ffff;
 
 $font-family-sans-serif: system-ui, -apple-system, "Satoshi", sans-serif, "DM Sans", sans-serif;
-$font-size-base:  18px;
+$font-size-base:  1rem;
 $font-weight-base:   400;
 $line-height-base:   1.67;
 
@@ -49,29 +74,6 @@ $custom-color: (
 // Then add additional custom code here
 
 
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap
-}
-
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap
-}
-
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap
-}
 
 .rccbig-blog
 {    
