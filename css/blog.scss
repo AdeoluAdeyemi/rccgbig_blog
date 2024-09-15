@@ -69,3 +69,12 @@
   margin-bottom: 37px;
     font-size: 20px;
 }
+
+.widget-area .widget a.wp-block-latest-posts__post-title {
+  display: block;
+  color: var(--color-dark-4);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .17s var(--ease-default);
+}
