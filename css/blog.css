@@ -136,4 +136,9 @@
   color: var(--color-dark-4);
   text-decoration: none;
   transition: all 0.17s ease-out;
+}
+
+.widget-area .widget ul, .widget-area .widget ol {
+  margin: 0;
+  padding-left: 0;
 }/*# sourceMappingURL=blog.css.map */

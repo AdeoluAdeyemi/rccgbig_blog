@@ -11347,4 +11347,13 @@ textarea.form-control-lg {
 
 /**
 * Blog page
-**//*# sourceMappingURL=main.css.map */
+**/
+.rccgbig-blog .form input[type=search].wp-block-search__input, .rccgbig-blog .form input[type=color].input-lg, .rccgbig-blog .form input[type=date].input-lg, .rccgbig-blog .form input[type=email].input-lg, .rccgbig-blog .form input[type=number].input-lg, .rccgbig-blog .form input[type=password].input-lg, .rccgbig-blog .form input[type=search].input-lg, .rccgbig-blog .form input[type=tel].input-lg, .rccgbig-blog .form input[type=text].input-lg, .rccgbig-blog .form input[type=url].input-lg, .rccgbig-blog .form select.input-lg {
+  height: 66px;
+  line-height: 66px;
+  font-size: 22px;
+}
+
+.rccgbig-blog .h1, .rccgbig-blog .h2, .rccgbig-blog .h3, .rccgbig-blog .h4, .rccgbig-blog .h5, .rccgbig-blog .h6, .rccgbig-blog h1, .rccgbig-blog h2, .rccgbig-blog h3, .rccgbig-blog h4, .rccgbig-blog h5, .rccgbig-blog h6 {
+  letter-spacing: -0.005em;
+}/*# sourceMappingURL=main.css.map */
