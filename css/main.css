@@ -320,7 +320,7 @@ dd {
   margin-left: 0;
 }
 
-blockquote {
+blockquote, blockquote.wp-block-quote {
   margin: 0 0 1rem;
 }
 
@@ -11359,7 +11359,7 @@ textarea.form-control-lg {
 }
 
 blockquote.wp-block-quote {
-  @apply blockquote;
+  margin-bottom: 1.75em;
 }
 
 blockquote.wp-block-quote p {

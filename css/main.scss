@@ -109,7 +109,8 @@ $custom-color: (
 }
 
 blockquote.wp-block-quote {
-  @apply blockquote;
+  @extend blockquote;
+  margin-bottom: 1.75em;
 }
 
 blockquote.wp-block-quote p {
