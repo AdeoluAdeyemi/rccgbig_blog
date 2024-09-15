@@ -185,6 +185,10 @@ blockquote.wp-block-quote p strong {
   overflow: hidden;
 }
 
+.comment .children .comment-body .reply {
+  margin-bottom: 1.5em;
+}
+
 .rccgbig-blog .form input[type=color], .rccgbig-blog .form input[type=date], .rccgbig-blog .form input[type=email], .rccgbig-blog .form input[type=number], .rccgbig-blog .form input[type=password], .rccgbig-blog .form input[type=search], .rccgbig-blog .form input[type=tel], .rccgbig-blog .form input[type=text], .rccgbig-blog .form input[type=url], .rccgbig-blog .form select, .rccgbig-blog .form textarea {
   color: var(--color-dark-1);
   border-color: var(--color-dark-1);
