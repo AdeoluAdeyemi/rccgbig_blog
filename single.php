@@ -29,13 +29,13 @@ get_header();
 							<div class="d-inline-block me-3">
 								<a href="#">
 									<i class="mi-clock size-16"></i>
-									<span class="visually-hidden">Date:</span> <?php echo $date->format('Y-m'); ?>
+									<span class="visually-hidden">Date:</span> 
 								</a>
 							</div>
 							<div class="d-inline-block me-3">
 								< href="#">
 									<i class="mi-user size-16"></i>
-									<span class="visually-hidden">Author:</span> <?php echo $author ?>
+									<span class="visually-hidden">Author:</span>
 								</a>
 							</div>
 							<div class="d-inline-block me-3">
