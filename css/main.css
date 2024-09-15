@@ -30,9 +30,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: rgb(127, 24, 127);
-  --bs-icon-background: rgba(127, 24, 127, 0.2);
   --bs-primary-rgb: 127, 24, 127;
-  --bs-icon-background-rgb: 127, 24, 127;
   --bs-primary-text-emphasis: #330a33;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -3014,23 +3012,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(127, 24, 127);
 }
 
-.btn-icon-background {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: rgba(127, 24, 127, 0.2);
-  --bs-btn-border-color: rgba(127, 24, 127, 0.2);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgba(49, 9, 49, 0.32);
-  --bs-btn-hover-border-color: rgba(39, 7, 39, 0.36);
-  --bs-btn-focus-shadow-rgb: 206, 166, 206;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: rgba(39, 7, 39, 0.36);
-  --bs-btn-active-border-color: rgba(32, 6, 32, 0.4);
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: rgba(127, 24, 127, 0.2);
-  --bs-btn-disabled-border-color: rgba(127, 24, 127, 0.2);
-}
-
 .btn-outline-primary {
   --bs-btn-color: rgb(127, 24, 127);
   --bs-btn-border-color: rgb(127, 24, 127);
@@ -3045,23 +3026,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: rgb(127, 24, 127);
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: rgb(127, 24, 127);
-  --bs-gradient: none;
-}
-
-.btn-outline-icon-background {
-  --bs-btn-color: rgba(127, 24, 127, 0.2);
-  --bs-btn-border-color: rgba(127, 24, 127, 0.2);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgba(127, 24, 127, 0.2);
-  --bs-btn-hover-border-color: rgba(127, 24, 127, 0.2);
-  --bs-btn-focus-shadow-rgb: 127, 24, 127;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: rgba(127, 24, 127, 0.2);
-  --bs-btn-active-border-color: rgba(127, 24, 127, 0.2);
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: rgba(127, 24, 127, 0.2);
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: rgba(127, 24, 127, 0.2);
   --bs-gradient: none;
 }
 
@@ -4641,13 +4605,6 @@ textarea.form-control-lg {
   --bs-alert-link-color: var(--bs-primary-text-emphasis);
 }
 
-.alert-icon-background {
-  --bs-alert-color: var(--bs-icon-background-text-emphasis);
-  --bs-alert-bg: var(--bs-icon-background-bg-subtle);
-  --bs-alert-border-color: var(--bs-icon-background-border-subtle);
-  --bs-alert-link-color: var(--bs-icon-background-text-emphasis);
-}
-
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -4960,19 +4917,6 @@ textarea.form-control-lg {
   --bs-list-group-active-color: var(--bs-primary-bg-subtle);
   --bs-list-group-active-bg: var(--bs-primary-text-emphasis);
   --bs-list-group-active-border-color: var(--bs-primary-text-emphasis);
-}
-
-.list-group-item-icon-background {
-  --bs-list-group-color: var(--bs-icon-background-text-emphasis);
-  --bs-list-group-bg: var(--bs-icon-background-bg-subtle);
-  --bs-list-group-border-color: var(--bs-icon-background-border-subtle);
-  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
-  --bs-list-group-action-hover-bg: var(--bs-icon-background-border-subtle);
-  --bs-list-group-action-active-color: var(--bs-emphasis-color);
-  --bs-list-group-action-active-bg: var(--bs-icon-background-border-subtle);
-  --bs-list-group-active-color: var(--bs-icon-background-bg-subtle);
-  --bs-list-group-active-bg: var(--bs-icon-background-text-emphasis);
-  --bs-list-group-active-border-color: var(--bs-icon-background-text-emphasis);
 }
 
 .btn-close {
@@ -6464,11 +6408,6 @@ textarea.form-control-lg {
   background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-icon-background {
-  color: #fff !important;
-  background-color: RGBA(var(--bs-icon-background-rgb), var(--bs-bg-opacity, 1)) !important;
-}
-
 .link-primary {
   color: RGBA(var(--bs-primary-rgb), var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-primary-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -6476,15 +6415,6 @@ textarea.form-control-lg {
 .link-primary:hover, .link-primary:focus {
   color: RGBA(102, 19, 102, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(102, 19, 102, var(--bs-link-underline-opacity, 1)) !important;
-}
-
-.link-icon-background {
-  color: RGBA(var(--bs-icon-background-rgb), var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(var(--bs-icon-background-rgb), var(--bs-link-underline-opacity, 1)) !important;
-}
-.link-icon-background:hover, .link-icon-background:focus {
-  color: RGBA(39, 7, 39, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(39, 7, 39, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-body-emphasis {
@@ -6895,10 +6825,6 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-primary-rgb), var(--bs-focus-ring-opacity));
 }
 
-.focus-ring-icon-background {
-  --bs-focus-ring-color: rgba(var(--bs-icon-background-rgb), var(--bs-focus-ring-opacity));
-}
-
 .position-static {
   position: static !important;
 }
@@ -7022,11 +6948,6 @@ textarea.form-control-lg {
 .border-primary {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-icon-background {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-icon-background-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-black {
@@ -7951,11 +7872,6 @@ textarea.form-control-lg {
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-icon-background {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-icon-background-rgb), var(--bs-text-opacity)) !important;
-}
-
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -8123,11 +8039,6 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-primary-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
-.link-underline-icon-background {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-icon-background-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
 .link-underline {
   --bs-link-underline-opacity: 1;
   text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -8184,11 +8095,6 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-icon-background {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-icon-background-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -11401,31 +11307,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@font-face {
-  font-family: Satoshi;
-  src: url(/assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"), url(/assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Satoshi;
-  src: url(/assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"), url(/assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Satoshi;
-  src: url(/assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"), url(/assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
 .rccbig-blog {
   --font-global: "Satoshi", sans-serif;
   --font-alt: "Satoshi", sans-serif;
   --section-padding-y: 140px;
+  font-family: var(--font-global);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.67;
 }
 
 /**
