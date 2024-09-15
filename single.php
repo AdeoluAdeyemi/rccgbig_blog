@@ -13,7 +13,7 @@ get_header();
 	<main id="primary" class="site-main">
 		<section class="page-section bg-gradient-gray-light-1 bg-scroll overflow-hidden">
 			<div class="bg-shape-1 wow fadeIn no-animate animated">
-				<img alt="" loading="lazy" width="1443" height="844" decoding="async" data-nimg="1" class="opacity-05" src="/assets/images/banner/bg-shape-1.svg" style="color: transparent;">
+				<img alt="" loading="lazy" width="1443" height="844" decoding="async" data-nimg="1" class="opacity-05" src="../assets/images/banner/bg-shape-1.svg" style="color: transparent;">
 			</div>
 
 			<div class="container position-relative pt-10 pt-sm-40 text-center">
