@@ -1,7 +1,32 @@
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap
+}
+
+
 :root {
-  --font-global: "DM Sans", sans-serif;
-  --font-alt: "DM Sans", sans-serif;
-  --font-serif: Georgia, "Times New Roman", Times, serif;
+  --font-global: "Satoshi",sans-serif;
+  --font-alt: "Satoshi",sans-serif;
   --full-wrapper-margin-x: 30px;
   --container-width: 1350px;
   --section-padding-y: 120px;
@@ -40,30 +65,6 @@
 }
 
 
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap
-}
-
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap
-}
-
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap
-}
-
 
 .entry-content {
   margin-bottom: 37px;
@@ -77,4 +78,8 @@
   font-weight: 500;
   text-decoration: none;
   transition: all .17s var(--ease-default);
+}
+
+.widget-area .widget a.wp-block-latest-posts__post-title:hover {
+  color: var(--color-gray-3);
 }
