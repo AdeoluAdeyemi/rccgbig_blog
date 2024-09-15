@@ -1,0 +1,66 @@
+:root {
+  --font-global: "DM Sans", sans-serif;
+  --font-alt: "DM Sans", sans-serif;
+  --font-serif: Georgia, "Times New Roman", Times, serif;
+  --full-wrapper-margin-x: 30px;
+  --container-width: 1350px;
+  --section-padding-y: 120px;
+  --menu-bar-height: 85px;
+  --menu-bar-height-scrolled: 65px;
+  --color-dark-1: #010101;
+  --color-dark-2: #171717;
+  --color-dark-3: #272727;
+  --color-dark-3a: #333;
+  --color-dark-4: #555;
+  --color-gray-1: #757575;
+  --color-gray-2: #888;
+  --color-gray-3: #999;
+  --color-gray-light-1: #f1f1f1;
+  --color-gray-light-2: #f7f7f7;
+  --color-gray-light-3: #e5e5e5;
+  --color-gray-light-4: #d5d5d5;
+  --color-gray-light-5: #ccc;
+  --color-gray-light-6: #bbb;
+  --color-dark-mode-gray-1: hsla(0, 0%, 100%, .7);
+  --color-dark-mode-gray-2: hsla(0, 0%, 100%, .128);
+  --border-radius-default: 4px;
+  --border-radius-large: 30px;
+  --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .05), 0px 1px 1px 0px rgba(0, 0, 0, .03), 0px 3px 5px 0px rgba(0, 0, 0, .03);
+  --box-shadow-strong: 0px 5px 10px 0px rgba(0, 0, 0, .08), 0px 1px 1px 0px rgba(0, 0, 0, .06), 0px 3px 5px 0px rgba(0, 0, 0, .06);
+  --box-shadow-block: 0px 3px 50px 0px rgba(0, 0, 0, .05);
+  --box-shadow-block-strong: 0px 3px 50px 0px rgba(0, 0, 0, .15);
+  --transition-default: all 0.27s cubic-bezier(0,0,0.58,1);
+  --ease-default: cubic-bezier(0,0,0.58,1);
+  --ease-out-long: cubic-bezier(0,0.5,0,1);
+  --ease-out-medium: cubic-bezier(0,0.57,0.55,1);
+  --ease-out-short: cubic-bezier(0.15,0.7,0.78,1);
+  --ease-elastic-1: cubic-bezier(0.68,-0.55,0.27,1.55);
+  --ease-elastic-2: cubic-bezier(0.68,-3,0.27,5);
+  scroll-behavior: auto;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"), url(../assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"), url(../assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url(../assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"), url(../assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.entry-content {
+  margin-bottom: 37px;
+  font-size: 20px;
+}/*# sourceMappingURL=blog.css.map */

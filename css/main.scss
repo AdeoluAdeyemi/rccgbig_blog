@@ -2,18 +2,41 @@
 
 $primary: rgb(127, 24, 127);
 
+// $color-primary-1: #119d60;
+// $color-primary-1-a: #1bb170;
+// $color-primary-light-1: #d4f5e7;
+// $color-primary-light-1-a: #c3e6d7;
+// $color-primary-2: #eaa92b;
+// $color-primary-light-2: #fff4e0;
+// $color-primary-3: #ca346b;
+// $color-primary-light-3: #ffdfeb;
+// $color-primary-4: #19c4c4;
+// $color-primary-light-4: #d1ffff;
+
+
+
 $theme-colors: (
   "primary": $primary
 );
 
 // Create your own map
 $custom-color: (
-  "icon-background": rgba(127, 24, 127, 0.2)
+  "icon-background": rgba(127, 24, 127, 0.2),
+  "color-primary-1": #119d60,
+  "color-primary-1-a": #1bb170,
+  "color-primary-light-1": #d4f5e7,
+  "color-primary-light-1-a":  #c3e6d7,
+  "color-primary-2": #eaa92b,
+  "color-primary-light-2":  #fff4e0,
+  "color-primary-3": #ca346b,
+  "color-primary-light-3": #ffdfeb,
+  "color-primary-4": #19c4c4,
+  "color-primary-light-4": #d1ffff,
 );
 
 
 // Merge maps
-$theme-colors: map-merge($theme-colors, $custom-color);
+//$theme-colors: map-merge($theme-colors, $custom-color);
 
 
 // Include any default variable overrides here (though functions won't be available)
@@ -23,51 +46,17 @@ $theme-colors: map-merge($theme-colors, $custom-color);
 // Then add additional custom code here
 
 
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Regular.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Regular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap
-}
-
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Italic.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Italic.woff) format("woff");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap
-}
-
-@font-face {
-  font-family: Satoshi;
-  src: url(../assets/webfonts/satoshi/Satoshi-Medium.woff2) format("woff2"),url(../assets/webfonts/satoshi/Satoshi-Medium.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap
-}
-
-
-
 .rccbig-blog
 {
   --font-global: "Satoshi", sans-serif;
   --font-alt: "Satoshi", sans-serif;
   --section-padding-y: 140px;
-  color: var(--color-dark-1);
+  //color: var($color-dark-1);
   font-family: var(--font-global);
   font-size: 18px;
   font-weight: 400;
   letter-spacing: normal;
-  line-height: 1.67
-}
-
-.rccg-blog body {
-  color: var(--color-dark-1);
-  font-family: var(--font-global);
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: normal
+  line-height: 1.67;
 }
 
 /**
