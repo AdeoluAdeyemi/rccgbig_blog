@@ -134,7 +134,7 @@ blockquote.wp-block-quote {
 }
 
 blockquote.wp-block-quote p {
-  font-size: 130%;
+  font-size: 120%;
   position: relative;
   margin-bottom: .7em;
   font-family: $font-family-sans-serif;
@@ -163,13 +163,21 @@ blockquote.wp-block-quote p strong {
   font-weight: 500;
 }
 
+.comment-meta .comment-author a {
+  color: var(--color-gray-1);
+}
+
+.comment-meta .comment-metadata time {
+  color: var(--color-dark-4);
+}
+
 .comment-meta .reply a {
   color: var(--color-gray-1);
   text-decoration: none;
   transition: var(--transition-default);
 }
 
-.comment-list .comment-content p {
+.comment-list .comment-body {
   padding-top: 30px !important;
   border-top: 1px dotted var(--color-gray-light-5);
   color: var(--color-dark-4);
@@ -192,7 +200,7 @@ blockquote.wp-block-quote p strong {
 }
 
 
-.rccgbig-blog #commentform .form-submit input#submit {
+.rccgbig-blog #commentform .form-submit input[type=submit] {
   padding: 13px 22px;
   font-size: 19px;
   font-weight: 500;
