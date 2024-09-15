@@ -107,3 +107,18 @@ $custom-color: (
 .rccgbig-blog .h1, .rccgbig-blog .h2, .rccgbig-blog .h3, .rccgbig-blog .h4, .rccgbig-blog .h5, .rccgbig-blog .h6, .rccgbig-blog h1, .rccgbig-blog h2, .rccgbig-blog h3, .rccgbig-blog h4, .rccgbig-blog h5, .rccgbig-blog h6 {
   letter-spacing: -.005em;
 }
+
+blockquote.wp-block-quote {
+  @extend blockquote;
+  margin-bottom: 1.75em;
+}
+
+blockquote.wp-block-quote p {
+  font-size: 130%;
+  position: relative;
+  margin-bottom: .7em;
+  font-size: 140%;
+  font-style: normal;
+  letter-spacing: -.01em;
+  line-height: 1.5;
+}

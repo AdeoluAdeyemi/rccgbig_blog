@@ -320,7 +320,7 @@ dd {
   margin-left: 0;
 }
 
-blockquote {
+blockquote, blockquote.wp-block-quote {
   margin: 0 0 1rem;
 }
 
@@ -11356,4 +11356,18 @@ textarea.form-control-lg {
 
 .rccgbig-blog .h1, .rccgbig-blog .h2, .rccgbig-blog .h3, .rccgbig-blog .h4, .rccgbig-blog .h5, .rccgbig-blog .h6, .rccgbig-blog h1, .rccgbig-blog h2, .rccgbig-blog h3, .rccgbig-blog h4, .rccgbig-blog h5, .rccgbig-blog h6 {
   letter-spacing: -0.005em;
+}
+
+blockquote.wp-block-quote {
+  margin-bottom: 1.75em;
+}
+
+blockquote.wp-block-quote p {
+  font-size: 130%;
+  position: relative;
+  margin-bottom: 0.7em;
+  font-size: 140%;
+  font-style: normal;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */
