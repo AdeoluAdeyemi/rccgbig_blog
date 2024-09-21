@@ -246,3 +246,33 @@ blockquote.wp-block-quote p strong {
   box-shadow: none;
   transition: all .2s ease-out;
 }
+
+/* Main Menu */
+.site-navigation {
+  font-weight: 600;
+
+  .current-menu-item{
+    background-color: #ccc;
+  } 
+
+  a {
+    color: var(--bs-black);
+    padding: 1rem 1.4rem;
+  }
+  
+}
+
+ul#primary-menu, ul#primary-menu ul {
+  @extend .nav;
+  @extend .col-12;
+  @extend .col-lg-auto;
+  @extend .me-lg-auto;
+  @extend .mb-2; 
+  @extend .justify-content-center;
+  @extend .mb-md-0;
+  list-style: none;
+}
+
+.site-header__logo {
+  width: 270px;
+}
