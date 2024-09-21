@@ -1,1 +1,11 @@
-/*# sourceMappingURL=header.css.map */
+/* Main Menu */
+.main-navigation {
+  font-weight: 600;
+}
+.main-navigation .current-menu-item {
+  background-color: #ccc;
+}
+.main-navigation a {
+  color: var(--bs-black);
+  padding: 1rem 1.4rem;
+}/*# sourceMappingURL=header.css.map */

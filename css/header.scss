@@ -1,0 +1,14 @@
+/* Main Menu */
+.main-navigation {
+  font-weight: 600;
+
+  .current-menu-item{
+    background-color: #ccc;
+  } 
+
+  a {
+    color: var(--bs-black);
+    padding: 1rem 1.4rem;
+  }
+  
+}
