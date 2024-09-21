@@ -26,44 +26,28 @@
 	<div id="top" class="page">
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'rccgbig_blog' ); ?></a>
 
-		<header id="masthead" class="p-3 site-header">
-			<div class="container pt-2 pb-2">
-				<div class="row">
-					<div class="col site-header__logo">
+		<header id="masthead" class="site-header p-3 mb-3 border-bottom">
+			<div class="container">
+				<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+					<div class="site-header__logo d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
 						<?php the_custom_logo(); ?>
 					</div>
-					<div class="col-md-5">
-						search
-					</div>
-				</div>
-			</div>
-
-
-
-
-
-
-
-			<nav id="site-navigation" class="main-nav stick-fixed wow-menubar wch-unset js-transparent fadeInDown animated transparent">
-				<div class="container d-flex justify-content-center">
-					<div class="row">
-						<div class="col-12 d-flex justify-content-center">
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rccgbig_blog' ); ?></button>
-						</div>
-
-						<div class="col-12 text-center">
-							<?php
+					<div class="main-nav nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+						<?php
 							wp_nav_menu(
 								array(
 									'theme_location' => 'menu-1',
 									'menu_id'        => 'primary-menu',
 								)
 							);
-							?>
-						</div>
+						?>
 					</div>
+
+					<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+						<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+					</form>
+
 				</div>
-			
-			</nav><!-- #site-navigation -->
-		</header><!-- #masthead -->
-		
+			</div>
+		</header>
+
