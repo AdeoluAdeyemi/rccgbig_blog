@@ -20,7 +20,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> class="blog theme-avantage bt_bb_plugin_active bt_bb_fe_preview_toggle woocommerce-js btHeadingStyle_default btMenuRightEnabled btStickyEnabled btLightSkin btBelowMenu btNoDashInSidebar noBodyPreloader btHardRoundedButtons btTransparentDarkHeader btWithSidebar btSidebarRight btShopSaleTagDesignRound btMenuRight btMenuHorizontal btMenuInitFinished btRemovePreloader btStickyHeaderActive btStickyHeaderOpen">
 <?php wp_body_open(); ?>
 <div class="rccg-blog">
 	<div id="top" class="page">
