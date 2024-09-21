@@ -26,7 +26,7 @@
 	<div id="top" class="page">
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'rccgbig_blog' ); ?></a>
 
-		<header id="masthead" class="site-header">
+		<header id="masthead" class="p-3 site-header">
 			<div class="container pt-2 pb-2">
 				<div class="row">
 					<div class="col site-header__logo">
@@ -45,26 +45,25 @@
 
 
 			<nav id="site-navigation" class="main-nav stick-fixed wow-menubar wch-unset js-transparent fadeInDown animated transparent">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rccgbig_blog' ); ?></button>
-				<?php
-				wp_nav_menu(
-					array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					)
-				);
-				?>
-					<div class="main-nav-sub container">
-						<div class="nav-logo-wrap position-static local-scroll">
-
+				<div class="container d-flex justify-content-center">
+					<div class="row">
+						<div class="col-12 d-flex justify-content-center">
+							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rccgbig_blog' ); ?></button>
 						</div>
-						<div class="mobile-nav" role="button" tabidenx="0" aria-expanded="false">
 
-						</div>
-						<div class="inner-nav desktop-nav">
-
+						<div class="col-12 text-center">
+							<?php
+							wp_nav_menu(
+								array(
+									'theme_location' => 'menu-1',
+									'menu_id'        => 'primary-menu',
+								)
+							);
+							?>
 						</div>
 					</div>
+				</div>
+			
 			</nav><!-- #site-navigation -->
 		</header><!-- #masthead -->
 		
