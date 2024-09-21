@@ -8,11 +8,8 @@
   display: block;
   margin: 0;
   padding: 0;
-  -webkit-transition: all 200ms ease 0s;
-  -moz-transition: all 200ms ease 0s;
   transition: all 200ms ease 0s;
 }
-
 
 .btMenuHorizontal .menuPort > nav > ul > li.menu-item-has-children {
   position: relative;
@@ -33,4 +30,4 @@
   margin: 0;
   padding: 0;
   position: relative;
-}
+}/*# sourceMappingURL=header.css.map */
